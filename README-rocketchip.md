@@ -24,7 +24,7 @@ the RISC-V Rocket Core. For more information on Rocket Chip, please consult our 
     $ cd rocket-chip
     $ git submodule update --init
 
-### Setting up the RISCV environment variable
+### Setting up the RISCV environment variable（设置RISCV环境变量）
 
 To build the rocket-chip repository, you must point the RISCV
 environment variable to your riscv-tools installation directory.

@@ -114,6 +114,11 @@ a hardware construction language embedded in Scala.
 The rocket-chip generator is a Scala program that invokes the Chisel compiler
 in order to emit RTL describing a complete SoC.
 The following sections describe the components of this repository.
+火箭筹码存储库是一个元存储库，它使用Git子模块指向几个子存储库。 这些存储库包含生成  
+和测试SoC设计所需的工具。 此存储库还包含用于生成RTL的代码。 硬件生成是使用Chisel  
+（一种嵌入在Scala中的硬件构造语言）完成的。 火箭芯片生成器是一个Scala程序，  
+该程序调用Chisel编译器以发出描述完整SoC的RTL。 以下各节描述了此存储库的组件。  
+
 
 ### <a name="what_submodules"></a>Git Submodules
 
